@@ -8,7 +8,7 @@ def main():
     print("-----------------------------------------")
 
     # Patient Registration
-    patient = register_patient("P001", "Gokul", 21)
+    patient = register_patient("P001", "Gokul", 21, "9150268660")
 
     print("\nPatient Registered:")
     print(patient)

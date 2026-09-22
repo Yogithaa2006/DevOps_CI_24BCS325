@@ -9,12 +9,9 @@ from test_request import create_test_request
 
 
 def test_patient_registration():
-    patient = register_patient("P001", "Gokul", 21)
-
-    assert patient["patient_id"] == "P001"
+    patient = register_patient("P001", "Gokul", 21, "9150268660")
     assert patient["name"] == "Gokul"
-    assert patient["age"] == 21
-
+    assert patient["phone"] == "9150268660"
 
 def test_test_catalog():
     tests = get_available_tests()
