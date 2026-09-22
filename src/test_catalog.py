@@ -3,5 +3,6 @@ def get_available_tests():
         "Complete Blood Count (CBC)",
         "Blood Glucose Test",
         "Lipid Profile",
-        "Thyroid Function Test"
+        "Thyroid Function Test",
+        "Liver Function Test"
     ]
