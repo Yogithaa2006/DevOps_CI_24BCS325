@@ -29,3 +29,5 @@ def test_test_request():
     assert request["patient_id"] == "P001"
     assert request["test_name"] == "Blood Glucose Test"
     assert request["status"] == "Requested"
+def test_ci_change():
+    assert 1 + 1 == 2
